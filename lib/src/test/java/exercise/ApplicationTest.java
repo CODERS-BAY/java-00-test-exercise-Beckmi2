@@ -9,6 +9,7 @@ class ApplicationTest {
 	@Test
 	void testCalculation() {
 		assertEquals(3, Application.calculation(2, 1));
+		assertEquals(4, Application.calculation(3, 1));
 	}
 
 	@Test
